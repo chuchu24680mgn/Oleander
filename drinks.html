@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drinks</title>
+</head>
+	<style type="text/css">
+	.container{
+			position: relative;
+		}
+		.oleander{
+			position: absolute;
+			top: 50%;
+			width: 100%;
+			font-size: 50px;
+			color: white;
+			text-align: center;
+			font-weight: bolder;
+			text-transform: capitalize;
+		}
+		img.p3{
+			margin: auto;
+			display: block;
+			width: 100%;
+			height: 650px;
+			filter: brightness(30%);
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background: black;
+		}
+		li{
+			float: right;
+		}
+		li a{
+			color: white;
+			display: block;
+			text-decoration: none;
+			padding: 16px;
+		}
+		li a:hover, li:hover .g{
+			background: grey;
+		}
+		.guide{
+			width: 100px;
+			display: none;
+			background: white;
+			z-index: 1;
+				}
+		div a{
+			color: black;
+			display: block;
+			text-decoration: none;
+			padding: 16px;
+		}
+		.guide a:hover{
+			background: whitesmoke;
+		}
+		li:hover div{
+			display: block;
+			position: absolute;
+		}
+		.title{
+			width: 100%;
+			height: 60px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			background-color: lightgrey;
+		}
+		.d1{
+            float: left;
+            width: 50%;
+            position: relative;
+        }
+        .d2{
+        	margin-top: 80px;
+            float: left;
+            width: 50%;
+            position: relative;
+        }
+        img.coffee{
+        	margin: auto;
+        	display: block;
+        	width: 60%;
+        	height: 250px;
+        	border-radius: 15px;
+        }
+        img.smoothies{
+        	margin: auto;
+        	display: block;
+        	width: 60%;
+        	height: 250px;
+        	border-radius: 15px;
+        }
+        img.cocktail{
+        	margin: auto;
+        	display: block;
+        	width: 60%;
+        	height: 250px;
+        	border-radius: 15px;
+        }
+        img.mocktail{
+        	margin: auto;
+        	display: block;
+        	width: 60%;
+        	height: 250px;
+        	border-radius: 15px;
+        }
+           .d1:hover img{
+          opacity: 0.3;
+        }
+           .d2:hover img{
+          opacity: 0.3;
+        }
+        .d1:hover .overlay{
+        	height: 100%;
+        }
+        .d2:hover .overlay{
+        	height: 100%;
+        }
+        .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        width: 60%;
+        height: 0;
+        transition: .8s linear;
+        margin: auto;
+        display: block;
+        }
+        .text {
+        color: black;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+       transform: translate(-50%, -50%);
+       text-align: center;
+   }
+	</style>
+<body>
+	<ul>
+		<li>
+			<a href="#d" class="g">➡️Guide</a>
+			<div class="guide">
+				<a href="Traditional dishes.html">Traditional dishes</a>
+				<a href="drinks.html">Drinks</a>
+				<a href="desserts.html">Desserts</a>
+		</li>
+		<li><a href="aboutus.html">📰About us</a></li>
+		<li><a href="oleander.html">🏠Home</a></li>
+	</ul>
+	<br>
+		<div class="container">
+		<img class="p3" src="p3.jpg">
+	    <div class="oleander">
+	        Drinks
+	    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="title"><h1 style="text-align: center;">Choose Any Kind of Drinks🥛</h1></div>
+    <br>
+    <br>
+  <div class="d1">
+  	<a href="coffee.html"><img class="coffee" src="coffee.jpg"></a>
+  	<div class="overlay">
+    <div class="text"><b>Coffee</b></div>
+  </div>
+  </div>
+  <div class="d1">
+  	<a href="smoothies.html"><img class="smoothies" src="smoothies.jpg"></a>
+  	<div class="overlay">
+    <div class="text"><b>Smoothies</b></div>
+  </div>
+  </div>
+  <div class="d2">
+  	<a href="cocktail.html"><img class="cocktail" src="cocktail.jpg"></a>
+  	<div class="overlay">
+    <div class="text"><b>Cocktail</b></div>
+  </div>
+  </div>
+  <div class="d2">
+  	<a href="mocktail.html"><img class="mocktail" src="mocktail.jpg"></a>
+  	<div class="overlay">
+    <div class="text"><b>Mocktail</b></div>
+  </div>
+  </div>
+</body>
+</html>
