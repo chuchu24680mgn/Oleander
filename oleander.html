@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Oleander cooking website</title>
+	<style type="text/css">
+		.container{
+			position: relative;
+		}
+		.oleander{
+			position: absolute;
+			top: 50%;
+			width: 100%;
+			color: white;
+			font-size: 50px;
+			text-align: center;
+			font-weight: bolder;
+		}
+		img.p1{
+			margin: auto;
+			display: block;
+			width: 100%;
+			height: 650px;
+			filter: brightness(30%);
+		}
+		ul.nv{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background: black;
+			top: 0;
+		}
+		li{
+			float: right;
+		}
+		li a{
+			color: white;
+			display: block;
+			text-decoration: none;
+			padding: 16px;
+		}
+		li a:hover, li:hover .g{
+			background: grey;
+		}
+		.guide{
+			width: 100px;
+			display: none;
+			background: white;
+			z-index: 1;
+			}
+		div a{
+			color: black;
+			display: block;
+			text-decoration: none;
+			padding: 16px;
+		}
+		.guide a:hover{
+			background: whitesmoke;
+		}
+		li:hover div{
+			display: block;
+			position: absolute;
+		}
+		.column {
+			position: relative;
+            float: left;
+            width: 33.33%;
+        }
+        img.p2{
+        	margin: auto;
+        	display: block;
+        	width: 90%;
+        	height: 300px;
+        	border-radius: 15px;
+        }
+        img.p3{
+        	margin: auto;
+        	display: block;
+        	width: 90%;
+        	height: 300px;
+        	border-radius: 15px;
+        }
+        img.p4{
+        	margin: auto;
+        	display: block;
+        	width: 90%;
+        	height: 300px;
+        	border-radius: 15px;
+        }
+        .column:hover img{
+        	opacity: 0.3;
+        }
+        .column:hover .overlay{
+        	height: 100%;
+        }
+        .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        width: 90%;
+        height: 0;
+        transition: .8s linear;
+        }
+        .text {
+        color: black;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+       transform: translate(-50%, -50%);
+       text-align: center;
+   }
+ 	</style>
+</head>
+<body>
+	<ul class="nv">
+		<li>
+			<a href="#d" class="g">➡️Guide</a>
+			<div class="guide">
+				<a href="Traditional dishes.html">Traditional dishes</a>
+				<a href="drinks.html">Drinks</a>
+				<a href="desserts.html">Desserts</a>
+		</li>
+		<li><a href="aboutus.html">📰About us</a></li>
+		<li><a href="oleander.html">🏠Home</a></li>
+	</ul>
+	<br>
+		<div class="container">
+		<img class="p1" src="p1.jpg">
+	    <div class="oleander">
+	    	Welcome to Oleander!
+	    	<br>
+	    	<p style="font-size: 20px;">Find out a lot of cooking recipes.</p>
+	    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="text-align: center;">Choose Your Categories!</h1>
+  <div class="column">
+  	<a href="Traditional dishes.html"><img class="p2" src="p2.jpg"></a>
+  		<div class="overlay">
+    <div class="text"><b>Traditional dishes</b></div>
+  </div>
+  </div>
+  <div class="column">
+  	<a href="drinks.html"><img class="p3" src="p3.jpg"></a>
+  	<div class="overlay">
+    <div class="text"><b>Drinks</b></div>
+  </div>
+  </div>
+  <div class="column">
+  	<a href="desserts.html"><img class="p4" src="p4.jpg"></a>
+  	<div class="overlay">
+    <div class="text"><b>Desserts</b></div>
+  </div>
+  </div>
+</body>
+</html>
